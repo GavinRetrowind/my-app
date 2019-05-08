@@ -52,7 +52,7 @@ class Header extends React.Component
       <div className = "root">
         <AppBar>
 
-          <Toolbar className="toolbar">
+          <Toolbar className = "toolbar">
             <div>
             <ListItem button onClick={()=>{this.props.SideBarOpen()}} >
               <ListItemIcon>
@@ -62,7 +62,7 @@ class Header extends React.Component
             </div>
 
             <Typography variant="h6" className = "grow">
-              <NavLink to="/" className = "titleColor">React</NavLink>
+              <NavLink to="/" className = "titleColor">MyApp</NavLink>
             </Typography>
 
             <IconButton aria-label="More" aria-haspopup="true" onClick={this.handleClick}>

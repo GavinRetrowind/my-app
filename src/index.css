@@ -130,21 +130,79 @@ iframe {
   flex-direction: column;
 }
 #root {
-  margin-top: 43px;
+  margin-top: 50px;
   display: flex;
   justify-content: left;
 }
 #root.no-margin-left {
   margin-left: 0;
 }
-.footer {
-  border: 1px solid #000;
-  margin-left: 300px;
-  width: 240px;
-  background-color: #00f;
-  position: fixed;
-  bottom: 0;
+.iframe {
+  width: 1200px;
+  height: 700px;
+  margin-bottom: 30px;
+}
+.avatar-list {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  border-top: 1px solid #a52a2a;
+  border-bottom: 1px solid #a52a2a;
+}
+.title {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.text {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.icon-paper {
+  text-align: center !important;
+}
+.icons-display {
+  flex-flow: wrap;
+  display: flex;
+}
+.one-icon-display {
+  display: flex;
+  cursor: pointer;
+}
+.paper {
+  text-align: center !important;
+}
+.templete-appbar {
+  background-color: #ffa500 !important;
+}
+.tab-content {
   text-align: center;
+}
+.footer {
+  border-top: 1px solid #e6ecf2;
+  text-align: left;
+}
+.footer-text {
+  font-size: 15px;
+  color: #7d98b3;
 }
 .root {
   flex-grow: 1;
@@ -162,21 +220,30 @@ iframe {
 .list {
   border-right: 2px solid #000;
   margin: 0px;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 40px);
   width: 240px;
-  background-color: #fff;
   padding-left: 0px;
   padding-right: 0px;
   position: fixed;
   overflow: scroll;
 }
 .move-right {
-  margin-left: 300px;
-  margin-top: 50px;
+  padding-left: 260px;
+  width: 100vw;
 }
 .default {
-  margin-left: 100px;
-  margin-top: 50px;
+  padding-left: 100px;
+  width: 100vw;
+}
+.content {
+  min-height: calc(100vh - 0px);
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.footer-position {
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
 }
 .ListItem {
   padding-left: 0px;
